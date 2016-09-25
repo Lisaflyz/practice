@@ -13,6 +13,8 @@
   <ItemGroup>
     <ClCompile Include="..\..\团队天梯赛\团队天梯赛\俄罗斯方块.cpp" />
     <ClCompile Include="..\..\团队天梯赛\团队天梯赛\折点计数.cpp" />
+    <ClCompile Include="测试.cpp" />
+    <ClCompile Include="路径解析.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{141803A6-8540-4D3F-B12B-FDF1E17E5423}</ProjectGuid>

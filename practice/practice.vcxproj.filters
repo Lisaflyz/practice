@@ -21,5 +21,11 @@
     <ClCompile Include="..\..\团队天梯赛\团队天梯赛\俄罗斯方块.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="路径解析.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="测试.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

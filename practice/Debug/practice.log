@@ -1,16 +1,26 @@
-﻿生成启动时间为 2016/7/28 14:38:32。
+﻿生成启动时间为 2016/8/3 20:42:55。
      1>项目“E:\project\practice\practice\practice.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\团队天梯赛\团队天梯赛\俄罗斯方块.cpp" "..\..\团队天梯赛\团队天梯赛\折点计数.cpp"
-         折点计数.cpp
-         俄罗斯方块.cpp
-         正在生成代码...
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "路径解析.cpp"
+         路径解析.cpp
+     1>e:\project\practice\practice\路径解析.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\project\practice\practice\路径解析.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\project\practice\practice\路径解析.cpp(166): warning C4258: “p”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\project\practice\practice\路径解析.cpp(159) : 忽略“p”的定义
+                 e:\project\practice\practice\路径解析.cpp(22) : 使用“p”的定义
+     1>e:\project\practice\practice\路径解析.cpp(168): warning C4258: “p”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\project\practice\practice\路径解析.cpp(159) : 忽略“p”的定义
+                 e:\project\practice\practice\路径解析.cpp(22) : 使用“p”的定义
+     1>e:\project\practice\practice\路径解析.cpp(177): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\project\practice\practice\路径解析.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
        Link:
          E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\practice\Debug\practice.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\openCV\opencv\build\x86\vc12\lib /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\practice\Debug\practice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\practice\Debug\practice.lib" /MACHINE:X86 "Debug\俄罗斯方块.obj"
          "Debug\折点计数.obj"
+         "Debug\测试.obj"
+         "Debug\路径解析.obj"
          practice.vcxproj -> E:\project\practice\Debug\practice.exe
      1>已完成生成项目“E:\project\practice\practice\practice.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.74
+已用时间 00:00:00.54
